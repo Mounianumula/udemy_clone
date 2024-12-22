@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>udemy</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header" style="font-family: 'Times New Roman', Times, serif;">
+    <img src="udemylogo.svg" width="120px">
+    <span class="hidden">Explore</span>
+    <input class="hidden" id="inp" type="search" placeholder="Search for Courses">
+    <span class="hidden">Plans & Pricing</span>
+    <span class="hidden">Udemy Business</span>
+    <span class="hidden">Teach on Udemy</span>
+    <img src="shopping-cart.png" width="35px"  class="hidden">
+    <button  class="hidden" id="login">Log In</button>
+    <button  class="hidden" id="sign">Sign Up</button>
+
+    <img  id="menu" src="menuicon.jpeg" width="40px">
+  </div>
+  <hr>
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="slide1.png" class="d-block w-260" height="550px" width="100%">
+      </div>
+      <div class="carousel-item">
+        <img src="slide2.png" class="d-block w-100" height="550px" width="100%">
+      </div>
+  
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+  <br>
+  
+  <h1>All the skills you need in one place</h1>
+  <p style="font-size: 20px;">From critical skills to technical topics, Udemy supports your professional development.</p>
+  
+  <br>
+  <div class="courses" style="font-family: 'Times New Roman', Times, serif;">
+
+    <u><span> Data Science</span></u>
+    <u><span>IT Certifications</span></u>
+    <u><span>Leadership</span></u>
+    <u><span> Web Development</span></u>
+    <u><span>Communications</span></u>
+    <u><span>Business Analytics & Intelligence</span></u>
+
+  </div>
+<hr>
+<br>
+<br>
+<div class="buttons" style="font-family: 'Times New Roman', Times, serif;">
+
+  <button style="border-radius: 22px; padding: 10px;"><strong>ChatGPT</strong><br>3M+ Learners</button>
+  <button style="border-radius: 22px; padding: 10px;"><strong>Data Science</strong><br>8M+ Learners</button>
+  <button style="border-radius: 22px; padding: 10px;"><strong>Python</strong><br>13M+ Learners</button>
+  <button style="border-radius: 22px; padding: 10px;"><strong>Machine Learning</strong><br>8M+ Learners</button>
+  <button style="border-radius: 22px; padding: 10px;"><strong>Deep Learning</strong><br>5M+ Learners</button>
+  <button style="border-radius: 22px; padding: 10px;"><strong>Artificial Intelligence AI</strong><br>5M+ Learners</button>
+  <button style="border-radius: 22px; padding: 10px;"><strong>Web Development</strong><br>2M+ Learners</button>
+
+</div>
+<br>
+<br>
+<br>
+<div class="course_cards" style="font-family: 'Times New Roman', Times, serif;">
+
+  <div id="card1">
+    <img src="Chatgpt.jpg" width="326px">
+    <h4>ChatGPT Complete Guide:Learn Generative AI, ChatGPT & More </h4>
+    <p>Julian Melanson, Benza Maman</p>
+    <p><b>4.5 *****</b></p>
+    <h4> ₹549 <s>₹2699</s></h4>
+  </div>
+
+  <div id="card2">
+    <img src="deeplearn.jpg" width="326px">
+    <h4>Deep Learning A-Z 2024:Neural Networks,AI&ChatGPT </h4>
+    <p>Julian Melanson, Benza Maman</p>
+    <p><b>4.5 ****</b></p>
+    <h4> ₹549 <s>₹2,699</s></h4>
+  </div>
+
+  <div id="card3">
+    <img src="python1.jpg" width="326px">
+    <h4>The Complete Python Bootcamp From Zero to Hero in Python</h4>
+    <p>Jose Portilla, Pierian Training</p>
+    <p><b>4.6****</b></p>
+    <h4> ₹499 <s>₹3,099</s></h4>
+  </div>
+
+  <div id="card4">
+    <img src="web.png" width="326px">
+    <h4>The Complete 2024 Web Development Bootcamp From A-Z </h4>
+    <p>Dr.Angela Yu, Developer and Lead Instructor</p>
+    <p><b>4.7 *****</b></p>
+    <h4> ₹499 <s>₹3,099</s></h4>
+  </div>
+
+</div>
+<br>
+<br>
+
+<button id="btn" style="padding: 5px; font-size: 22px; font-family: 'Times New Roman', Times, serif;"><b>Show All Courses</b></button>
+<br>
+<br>
+<h3 style="text-align: center; font-family: 'Times New Roman', Times, serif;">Trusted by over 16,000 companies and millions of learners around the world</h3>
+
+<br>
+
+<div class="company_logos" style="font-family: 'Times New Roman', Times, serif;">
+
+  <img src="volkswagen_logo1.svg">
+  <img src="samsung_logo2.svg" >
+  <img src="cisco_logo3.svg" >
+  <img src="vimeo_logo_4.svg" >
+  <img src="procter_gamble_logo5.svg" >
+  <img src="hewlett_packard_enterprise_logo6.svg" >
+  <img src="citi_logo7.svg" >
+  <img src="ericsson_logo8.svg" >
+
+</div>
+<br>
+<h1 style="font-family: 'Times New Roman', Times, serif;">Learning focused on your goals</h1>
+<br>
+<div class="goals" style="font-family: 'Times New Roman', Times, serif;">
+  <div class="goal">
+      <div class="goal1">
+        <h3 style="display: inline;  padding-left: 130px;"> Hands On Training</h3>
+        <p  style="padding-left: 130px;">Upskill effectively with AI-powered coding exercises, practice tests, and quizzes.</p>
+      </div>
+      <br>
+  
+      <div class="goal2">
+         <h3 style="display: inline; padding-left: 130px;"> Certification Prep</h3>
+         <p style="padding-left: 130px;">Prep for industry-recognized certifications by solving real-world challenges and earn badges along the way.</p>
+      </div>
+      <br>
+     
+      <div class="goal3">
+         <h3 style="display: inline;  padding-left: 130px;"> Insights and Analytics</h3>
+         <p style="padding-left: 130px;">Fast-track goals with advanced insights plus a dedicated customer success team to help drive effective learning.</p>
+      </div>
+      <br>
+      
+      <div class="goal4">
+         <h3 style="display: inline;  padding-left: 130px;"> Customizable Content</h3>
+         <p style="padding-left: 130px;">Create tailored learning paths for team and organization goals and even host your own content and resources.</p>
+      </div>
+  </div>
+  <div class="graph">
+    <img src="graph.png" width="625">
+  </div>
+</div>
+<br>
+<br>
+<br>
+<h1 style="font-family: 'Times New Roman', Times, serif;">Accelerate growth — for you or your organization</h1>
+<p style="font-family: 'Times New Roman', Times, serif;">Reach goals faster with one of our plans or programs. Try one free today or contact sales to learn more.</p>
+<div class="plans" style="font-family: 'Times New Roman', Times, serif;">
+  <div class="Personal_plan">
+    <h2>Personal Loan</h2>
+    <p>For You</p>
+    <img src="1user.png" width="30px">
+    <p style="display: inline;">Individual</p>
+    <br>
+    <h3>Starting at ₹850 per month</h3>
+    <p>Billed monthly or annually. Cancel anytime.</p>
+    <button style="background-color: black; color: white; width:400px; height: 60px; font-size: 20px;">Start Subscription</button>
+    <br>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">Access to 12,000+ top courses</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">Certification prep</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">Goal-focused recommendations</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">AI-powered coding exercises</p>
+    
+  </div>
+  <div class="Team_plan">
+    <h2>Team Plan</h2>
+    <p >For Your Team</p>
+    <img src="2users.png" width="30px">
+    <p style="display: inline;">2 to 20 People</p>
+    <br>
+    <h3>₹2,000 a month per user</h3>
+    <p>Billed annually. Cancel anytime.</p>
+    <button style="background-color: black; color: white; width:400px; height: 60px; font-size: 20px;">Start Subscription</button>
+    <br>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">Access to 12,000+ top courses</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">Certification prep</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">Goal-focused recommendations</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">AI-powered coding exercises</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">Analytics and adoption reports</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+
+  <div class="Enterprise_plan">
+    <h2>Enterprise Plan</h2>
+    <p>For Your Whole Organization</p>
+    <img src="2users.png" width="30px">
+    <p style="display: inline;">More Than 20 People</p>
+    <br>
+    <h3>Contact sales for pricing</h3>
+    <br>
+    <br>
+    <button style="background-color: black; color: white; width:400px; height: 60px; font-size: 20px;">Start Subscription</button>
+    <br>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">Access to 27,000+ top courses</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">Certification prep</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">Goal-focused recommendations</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">AI-powered coding exercises</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">Advanced analytics and insights</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">Dedicated customer success team</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">International course collection featuring 15 languages</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">Customizable content</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">Hands-on tech training with add-on</p>
+    <br>
+    <img src="checkmark_icon.png" width="30px">
+    <p style="display: inline;">Strategic implementation services with add-on</p>
+    <br>
+  </div>
+  
+</div>
+<br>
+<br>
+<h1 style="font-family: 'Times New Roman', Times, serif;">See what others are achieving through learning</h1>
+<br>
+<div class="reviews" style="font-family: 'Times New Roman', Times, serif;">
+  <div class="review1">
+     <img src="quotes.svg" width="24px">
+     <br>
+     <br>
+     <p>Udemy was rated the <b>most popular online course or certification program </b>for learning how to code according to StackOverflow’s 2023 Developer survey.</p>
+     <img src="review1.svg">
+     <p>37,076 responses collected</p>
+
+  </div>
+
+  <div class="review2">
+    <img src="quotes.svg" width="24px">
+    <br>
+    <br>
+    <p>Udemy was rated the <b>most popular online course or certification program </b>for learning how to code according to StackOverflow’s 2023 Developer survey.</p>
+     <img src="review2.webp"  width="45px" style="border-radius: 40px;">
+     <p style="display: inline;">Alvin Lim
+      Technical Co-Founder, CTO at Dimensional</p>
+  </div>
+
+  <div class="review3">
+    <img src="quotes.svg" width="24px">
+    <br>
+    <br>
+    <p>Udemy was rated the <b>most popular online course or certification program </b>for learning how to code according to StackOverflow’s 2023 Developer survey.</p>
+     <img src="review3.jpeg"  width="45px" style="border-radius: 40px;">
+     <p style="display: inline;">William A. Wachlin
+      Partner Account Manager at Amazon Web Services</p>
+  </div>
+
+  <div class="review4">
+    <img src="quotes.svg" width="24px">
+    <br>
+    <br>
+    <p>Udemy was rated the <b>most popular online course or certification program </b>for learning how to code according to StackOverflow’s 2023 Developer survey.</p>
+     <img src="review4.png"  width="45px" style="border-radius: 40px;">
+     <p style="display: inline;">Ian Stevens
+      Head of Capability Development, North America at Publicis Sapient</p>
+  </div>
+
+</div>
+<br>
+<br>
+<div class="report" style="background-color: white; font-family: 'Times New Roman', Times, serif;">
+   <div class="report1" style="width:25%;">
+    <br>
+    <br>
+    <br>
+      <h1>Top trends for the future of work</h1>
+      <p style="font-size: 24px;">Our 2025 Global Learning & Skills Trends Report is out now! Find out how to build the skills to keep pace with change.</p>
+      <button  style="width: 200px; height: 60px; font-size: 20px;">Get The Report-></button>
+   </div>
+   <div class="report2">
+    <img src="report.webp" width="1000">
+   </div>
+</div>
+<br>
+<br>
+<h1 style="font-family: 'Times New Roman', Times, serif;">Trending Now</h1>
+<hr>
+<div class="trending" style="font-family: 'Times New Roman', Times, serif;">
+  <div class="trending1" style="width: 300px;">
+     <h1>ChatGPT is a top skill</h1>
+     <br>
+     <b><a href="#" style="font-size: 22px;">See ChatGPT Courses ></a></b>
+     <br>
+     <br>
+     <p>3,896,168 learners</p>
+  </div>
+
+  <div class="trending2" style="width: 300px;">
+      <h1>Development</h1>
+      <br>
+      <b><a href="#" style="font-size: 22px;">Python></a></b>
+      <br>
+      <br>
+      <p>46,669,320 learners</p>
+      <br>
+      <b><a href="#" style="font-size: 22px;">Web Development ></a></b>
+      <br>
+      <br>
+      <p>13,797,265 learners</p>
+      <br>
+      <b><a href="#" style="font-size: 22px;">Data Sceience></a></b>
+      <br>
+      <br>
+      <p>7,582,545 learners</p>
+  </div>
+
+  <div class="trending3" style="width: 300px;"> 
+       <h1>Design</h1>
+       <br>
+       <b><a href="#" style="font-size: 22px;">Blender></a></b>
+       <br>
+       <br>
+       <p>2,821,920 learners</p>
+       <br>
+       <b><a href="#" style="font-size: 22px;">Graphic Design></a></b>
+       <br>
+       <br>
+       <p>4,417,192 learners</p>
+       <br>
+       <b><a href="#" style="font-size: 22px;">User Experience (UX) Design></a></b>
+       <br>
+       <br>
+       <p>2,029,737 learners</p>
+      
+  </div>
+
+  <div class="trending4" style="width: 300px;">
+    <h1>Business</h1>
+    <br>
+    <b><a href="#" style="font-size: 22px;">PMI Project Management professional (PMP)></a></b>
+    <br>
+    <br>
+    <p>2,451,694 learners</p>
+    <br>
+    <b><a href="#" style="font-size: 22px;">Microsoft Power BI></a></b>
+    <br>
+    <br>
+    <p>4,426,343 learners</p>
+    <br>
+    <b><a href="#" style="font-size: 22px;">Project Management></a></b>
+    <br>
+    <br>
+    <p>3,805,003 learners</p>
+
+  </div>
+   
+</div>
+
+
+<h1 style="font-family: 'Times New Roman', Times, serif;">Learners are viewing</h1>
+<br>
+<br>
+<div class="Learners" style="font-family: 'Times New Roman', Times, serif;">
+
+  <div id="learn1">
+    <img src="python3.jpg" width="326px" height="200px">
+    <h4>100 Days of Code: The Complete Python Pro Bootcamp</h4>
+    <p>Dr.Angela Yu, Developer and Lead Instructor</p>
+    <p><b>4.7 *****</b></p>
+    <h4> ₹3,299</h4>
+    <br>
+    <p style="background-color: rgb(247, 187, 90); width: 110px; padding: 10px; font-size: 18px;"><b>Best Seller</b></p>
+  </div>
+
+  <div id="learn2">
+    <img src="webdevelopment.jpg" width="326px" height="200px">
+    <h4>The Complete 2024 Web Development Bootcamp</h4>
+    <p>Dr.Angela Yu, Developer and Lead Instructor</p>
+    <p><b>4.7 ****</b></p>
+    <h4> ₹3,099</h4>
+    <br>
+    <p style="background-color: rgb(247, 187, 90); width: 110px; padding: 10px; font-size: 18px;"><b>Best Seller</b></p>
+  </div>
+
+  <div id="learn3">
+    <img src="cloud1.webp" width="326px" height="200px">
+    <h4>[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02 2025</h4>
+    <p>Stephane Maarek | AWS Certified Developer</p>
+    <p><b>4.6****</b></p>
+    <h4> ₹3,499</h4>
+    <p style="background-color: rgb(247, 187, 90); width: 110px; padding: 10px; font-size: 18px;"><b>Best Seller</b></p>
+  </div>
+
+  <div id="learn4">
+    <img src="cloud2.webp" width="326px" height="200px">
+    <h4>Ultimate AWS Certified Solutions Architect Associate 2025</h4>
+    <p>Stephane Maarek | AWS Certified Developer</p>
+    <p><b>4.7 *****</b></p>
+    <h4> ₹3,499</h4>
+    <br>
+    <p style="background-color: rgb(247, 187, 90); width: 110px; padding: 10px; font-size: 18px;"><b>Best Seller</b></p>
+  </div>
+
+</div>
+<br>
+<br>
+<div class="sales" style="font-family: 'Times New Roman', Times, serif;">
+  <div  class=sales1 style="width:700px ;" >
+     <h3><b>Booz | Allen | Hamilton</b></h3>
+     <br>
+     <br>
+     <h1>Booz Allen Hamilton Unlocks Talent Retention and Productivity Through Upskilling</h1>
+     <br>
+     <h1>93%</h1>
+     <p style="font-size: 20px;">retention rate among participating employees</p>
+     <h1>65%</h1>
+     <p style="font-size: 20px;">of learners noted a positive impact on their productivity</p>
+     <hr>
+     <br>
+     <br>
+     <button style="width: 180px; font-size: 20px; height: 50px; background-color: black; color: white;">Read Full Story -></button>
+  </div>
+  <div>
+    <img src="sales.jpg" width="800px" >
+  </div>
+</div>
+<div class="about">
+  <div class="head">
+  <h4>Top companies choose Udemy Business to build in-demand career skills.</h4>
+  </div>
+  <div class="head1">
+    <img src="company1.svg">
+    <img src="company2.svg">
+    <img src="company3.svg">
+    <img src="company4.svg">
+    <img src="company5.svg">
+  </div>
+</div>
+
+<div class="about1" style="background-color: black; color: white; border-top: 1px solid white ;">
+  <div class="about1_0">
+    <ul style="list-style-type: none; font-size: 20px;">
+      <li>Udemy Business</li>
+      <li>Teach on Udemy</li>
+      <li>Get the App</li>
+      <li>About us</li>
+      <li>Contact us</li>
+    </ul>
+  </div>
+  <div class="about1_1">
+    <ul style="list-style-type: none; font-size: 20px;">
+      <li>Careers</li>
+      <li>Blog</li>
+      <li>Help and Support</li>
+      <li>Affiliate</li>
+      <li>Investors</li>
+    </ul>
+  </div>
+  <div class="about1_2">
+    <ul style="list-style-type: none; font-size: 20px;">
+      <li>Terms</li>
+      <li>Privacy Policy</li>
+      <li>Cookie Settings</li>
+      <li>Sitemap</li>
+      <li>Accessibility Statement</li>
+    </ul>
+  </div>
+  <div class="about1_3">
+    <select style="width: 180px; height: 40px; background-color:black; color: white; text-align: center; font-size: 20px;">
+      <option><button>English</button></option>
+      <option><button>Nederlands</button></option>
+      <option><button>Deutsch</button></option>
+      <option><button>Italiano</button></option>
+      <option><button>Portugues</button></option>
+      <option><button>Turkce</button></option>
+   </select>
+  </div>
+</div>
+<div class="logo" style="background-color: black;">
+  <div>
+  <a href="#"><img src="udemylogowhite.svg" width="120px"></a>
+  </div>
+  <div>
+    <h4 style="color: white; font-size: 18px;">&copy;2024 Udemy,Inc.</h4>
+  </div>
+</div>
+
+
+   
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body> 
+</html>

@@ -1,0 +1,314 @@
+body{
+padding: 30px;
+background-color:rgb(236, 236, 236);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+}
+#inp{
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 12px 4px;
+    width: 450px;
+    height: 40px;
+    border-radius: 7px;
+    padding-left:40px;
+    font-size: 22px;
+}
+#login{
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+}
+#sign{
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.courses{
+    display: flex;
+    font-size: 22px;
+    column-gap: 40px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;   
+}
+.courses{
+    cursor: pointer;
+}
+.course_cards{
+    display: flex;
+    column-gap: 50px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    cursor: pointer;
+}
+#card1{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px purple;
+    width: 350px;
+    padding: 10px;
+
+}
+#card2{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px purple;
+    width: 350px;
+    padding: 10px;
+}
+#card3{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px purple;
+    width: 350px;
+    padding: 10px;
+}
+#card4{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px purple;
+    width: 350px;
+    padding: 10px;
+}
+.company_logos{
+    padding: 90px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 15px;
+}
+.goals{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.goal1{
+    padding: 30px;
+    background-image: url(hands-on-practice1.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    box-shadow: 2.5px 2.5px purple;
+    width: 750px;
+    border-radius: 10px;
+}
+.goal2{
+    padding: 30px;
+    background-image: url(certificate2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    box-shadow: 2.5px 2.5px purple;
+    width: 750px;
+    border-radius: 10px;
+}
+.goal3{
+    padding: 30px;
+    background-image: url(graph3.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    box-shadow: 2.5px 2.5px purple;
+    width: 750px;
+    border-radius: 10px;
+}
+.goal4{
+    padding: 30px;
+    background-image: url(organizations4.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    box-shadow: 2.5px 2.5px purple;
+    width: 750px;
+    border-radius: 10px;
+}
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-items: center;
+    column-gap: 30px;
+    justify-content: center;
+    row-gap: 10px;
+}
+.Personal_plan{
+    width: 480px;
+    height: 650px;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px purple;
+}
+.Team_plan{
+    width: 480px;
+    height: 650px;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px purple;
+
+}
+.Enterprise_plan{
+    width: 480px;
+    height: 650px;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px purple;
+}
+.reviews{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+    column-gap: 30px;
+}
+.review1{
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px purple;
+    width: 350px;
+    height: auto;
+}
+.review2{
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px purple;
+    width: 350px;
+    height: auto;
+}
+.review3{
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px purple;
+    width: 350px;
+    height: auto;
+}
+.review4{
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px purple;
+    width: 350px;
+    height: auto;
+}
+.report{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.trending{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 15px;
+    justify-content: center;
+}
+
+.Learners{
+    display: flex;
+    column-gap: 50px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    cursor: pointer;
+}
+#learn1{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px purple;
+    width: 350px;
+    padding: 10px;
+
+}
+#learn2{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px purple;
+    width: 350px;
+    padding: 10px;
+}
+#learn3{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px purple;
+    width: 350px;
+    padding: 10px;
+}
+#learn4{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px purple;
+    width: 350px;
+    padding: 10px;
+}
+.sales{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 15px;
+    padding: 30px;
+}
+.about{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.about1{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+.logo{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+
+
+
+
+    @media (max-width:930px){
+        .hidden{
+            display: none;
+        }
+    
+        #menu{
+            display: block;
+        }
+    }
